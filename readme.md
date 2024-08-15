@@ -8,14 +8,14 @@
 They work well together! You will need to install the patched powerline font as well: <https://github.com/powerline/fonts>
 
 #### Step-by-step installation
-1. Drop the `cobalt2.zsh-theme` file in to the `~/.oh-my-zsh/themes/` directory.
-2. Open up your ZSH preferences at `~/.zshrc` and change the theme variable to `ZSH_THEME="cobalt2"`.
-
-3. Install Powerline and necessary fonts, one way is using [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager))
+1. Install Oh-my-zsh here: [https://ohmyz.sh/#install](https://ohmyz.sh/#install)
+2. Drop the `cobalt2.zsh-theme` file in to the `~/.oh-my-zsh/themes/` directory.
+3. Open up your ZSH preferences at `~/.zshrc` by typing `nano ~/.zshrc` and change the theme variable to `ZSH_THEME="cobalt2"`.
+4. Install Powerline and necessary fonts, one way is using [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager))
  * For first time *PIP* users refer to this [PIP installation guide](https://pip.pypa.io/en/stable/installing/)
  * To install Powerline using pip
   ```
-pip install --user powerline-status
+pip3 install --user powerline-status
   ```
  * Now install all necessary fonts by downloading or cloning git repository.
 
