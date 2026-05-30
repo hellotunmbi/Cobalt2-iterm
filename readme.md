@@ -8,7 +8,7 @@
 They work well together! You will need to install the patched powerline font as well: <https://github.com/powerline/fonts>
 
 #### Step-by-step installation
-1. Install Oh-my-zsh here: [https://ohmyz.sh/#install](https://ohmyz.sh/#install)
+1. Install Oh-my-zsh here: [https://ohmyz.sh/#install](https://ohmyz.sh/#install) or run this `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 2. Drop the `cobalt2.zsh-theme` file in to the `~/.oh-my-zsh/themes/` directory.
 3. Open up your ZSH preferences at `~/.zshrc` by typing `nano ~/.zshrc` and change the theme variable to `ZSH_THEME="cobalt2"`.
 4. Install Powerline and necessary fonts, one way is using [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager))
