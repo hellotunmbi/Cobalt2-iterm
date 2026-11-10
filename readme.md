@@ -12,6 +12,9 @@ They work well together! You will need to install the patched powerline font as 
 2. Drop the `cobalt2.zsh-theme` file in to the `~/.oh-my-zsh/themes/` directory.
 3. Open up your ZSH preferences at `~/.zshrc` by typing `nano ~/.zshrc` and change the theme variable to `ZSH_THEME="cobalt2"`.
 4. Install Powerline and necessary fonts, one way is using [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager))
+ * Download and Install the latest [Python](https://www.python.org/)
+ * Run: python3 -m ensurepip --upgrade
+ * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) Save the file as `get-pip.py` in your directory then run `python3 get-pip.py`
  * For first time *PIP* users refer to this [PIP installation guide](https://pip.pypa.io/en/stable/installing/)
  * To install Powerline using pip
   ```
